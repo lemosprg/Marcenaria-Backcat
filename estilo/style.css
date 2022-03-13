@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+}
+header {
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+nav {
+    padding: 10px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+nav > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: bold;
+}
+nav > a:hover {
+    color: white;
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    margin: 20px;
+    text-align: end;
+}
+aside {
+    font-family:cursive;
+}
+footer {
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    color: silver;
+}
+footer > p > a {
+    text-decoration: none;
+    color: silver;
+    font-weight: bold;
+}
+footer > p > a:hover {
+    color: rgb(117, 0, 92);
+    text-decoration: underline;
+}
