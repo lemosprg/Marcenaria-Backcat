@@ -1,45 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <title>BlackCat Marcenaria</title>
         <meta charset=UTF-8>
         <link rel="stylesheet" href="estilo/style.css">
-        <link rel="shortcut icon" href="imagens/catlogo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="imagens/catlogo2.ico" type="image/x-icon">
     </head>
 
     <body>
+
         <header>
             <div id="logo">
                 <img src="imagens/logo Marcenaria.jpg" alt="Logo Marcenaria Blackcat">
             </div>
             <nav>
                 <a href="#">Nossa História</a>
-                <a href="#">Produtos</a>
                 <a href="#">Portifólio</a>
                 <a href="#">Contatos</a>
-                <a href="#">Fale Conosco</a>
             </nav>
         </header>
+
         <main>
-            <section id="intro">
-                <article>
-                    <h2>Bem vindo!</h2>
-                    <p>A Marcenaria BlackCat é uma marcenaria familiar 
-                        com mais de 15 anos de hisptória. Inicialmente 
-                        idealizada e fundada pelo Professor Anatário 
-                        Domingues e atualmente administrada pelo 
-                        Marceneiro Pablo Lemos.</p>
-                        <aside>
-                            Por: Pablo Lemos - Janeiro/2022
-                        </aside>
-                </article>
-            </section>
-            <div id="img1">
-                <img src="imagens/frontimg.jpg" alt="Imagem autoral">
+            <div class="img01">
+                <img src="imagens/frontimg1.jpg" width="100%">
             </div>
+            <article id="texto1">
+                <h2>Bem vindo!</h2>
+                <p>A Marcenaria BlackCat é uma marcenaria familiar 
+                com mais de 15 anos de história. Inicialmente 
+                idealizada e fundada pelo Professor Anatário 
+                Domingues e atualmente administrada pelo 
+                Marceneiro Pablo Lemos.</p>
+                <aside>
+                    Por: Pablo Lemos - Janeiro/2022
+                </aside>
+                <button>Contatos</button>
+            </article>
         </main>
+        <div class="container">
+            <div classe="enunciado">
+                <h1> Veja alguns dos nossos trabalhos</h1>
+            </div>
+            <div class="container-janelas">
+                <div class="janela">
+                    <div class="botao-janela"><img src="imagens/jnsala2.jpg" alt="imagem de sala" style="padding-top: 30px"></div>
+                    <p style="font-size: 20px;">Salas</p>
+                </div>
+                <div class="janela">
+                    <div class="botao-janela"><img src="imagens/jncozinha.jpg" alt="imagem de cozinha"></div>
+                    <p style="font-size: 20px;">Cozinhas</p>
+                </div>
+                <div class="janela">
+                    <div class="botao-janela"><img src="imagens/jnquarto.jpg" alt="imagem de quarto"></div>
+                    <p style="font-size: 20px;">Quartos</p>
+                </div>
+                <div class="janela">
+                    <div class="botao-janela"><img src="imagens/jnbanheiro2.jpg" alt="imagem de banheiro" style="padding-top: 15px"></div>
+                    <p style="font-size: 20px;">Banheiros</p>
+                </div>                
+            </div>
+        </div>
+        <div class="msg-final">
+            <article id="texto2">
+                Muito obrigado por ter visitado esse site. 
+                Nossas obras são feitas com muita dedicação e 
+                sempre visando a satisfação de nossos clientes.
+                <p>Se possível, recomende nossos serviços para 
+                    algum amigo. Ficaremos imensamente gratos!
+                </p>
+                <aside>
+                    - Pablo Lemos
+                </aside>
+            </article>
+        </div>
         <footer>
             <p style= "margin-top: 0px; margin-bottom: 0px;">Desenvolvido por Pablo Lemos</p>
-            <P style= "margin-top: 10px; margin-bottom: 0px;">Siga nosso <a href="#">Instagram</a></P>
+            <P style= "margin-top: 5px; margin-bottom: 0px;">Siga nosso <a href="#">Instagram</a></P>
+            <p style="margin-top: 10px;margin-bottom: 5px;">Copyright © The Odin Project 2022</p>
         </footer>
     </body>
